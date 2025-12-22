@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b159103ab3f14a7086e7335b463214d9, type: 3}
+  m_Name: RaritySystem
+  m_EditorClassIdentifier: 
+  <RarityConfigs>k__BackingField:
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.LegendaryRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <ProbabilityPercentage>k__BackingField: 4
+    <Rarities>k__BackingField:
+    - {fileID: 11400000, guid: a2c96b86bf3610c46a48822fc810e438, type: 2}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.EpicRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <ProbabilityPercentage>k__BackingField: 6
+    <Rarities>k__BackingField:
+    - {fileID: 11400000, guid: 2d2f0873983189c40adc14a6ef5b81c4, type: 2}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.RareRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <ProbabilityPercentage>k__BackingField: 15
+    <Rarities>k__BackingField:
+    - {fileID: 11400000, guid: b7e51b8f35054de4880abb8bb752c539, type: 2}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.UncommonRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <ProbabilityPercentage>k__BackingField: 25
+    <Rarities>k__BackingField:
+    - {fileID: 11400000, guid: 4844849b9bcb9864e976c99642f0e1f2, type: 2}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.CommonRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <ProbabilityPercentage>k__BackingField: 50
+    <Rarities>k__BackingField:
+    - {fileID: 11400000, guid: a821ac10c99ce2240800c3a4a7526f3f, type: 2}
+  defaultRarity: {fileID: 11400000, guid: a821ac10c99ce2240800c3a4a7526f3f, type: 2}

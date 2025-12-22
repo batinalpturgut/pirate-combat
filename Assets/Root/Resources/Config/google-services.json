@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414893937631",
+    "project_id": "pirate-battle",
+    "storage_bucket": "pirate-battle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414893937631:android:332caeaf9395540298ea6a",
+        "android_client_info": {
+          "package_name": "com.turgut.piratebattle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2v39bU-5uDHTzZ9cVB2ScI-P12jeVTIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8317d94e440649129371bcbea8e2a36f, type: 3}
+  m_Name: FreezingTower
+  m_EditorClassIdentifier: 
+  <SoulCost>k__BackingField: 15
+  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: 77ec926dede56934b92adb07adba1583,
+    type: 3}
+  <Prefab>k__BackingField: {fileID: 1463352755565687545, guid: 7e904adea16d74e40ba34b7067fb8fa2,
+    type: 3}
+  <IsCumulative>k__BackingField: 0
+  themeVisualPairList:
+  - <Theme>k__BackingField: 0
+    <UpgradeLevelPrefabs>k__BackingField:
+    - {fileID: 2084976760925714667, guid: 32d560c6d4eff684a96db85c4e2cddaf, type: 3}
+    - {fileID: 2084976760925714667, guid: df31b1b00b499fc4db68765b66d5fa2c, type: 3}
+    - {fileID: 2084976760925714667, guid: 1bf9c6c409c0b7d4cbd03592edbb9086, type: 3}
+  - <Theme>k__BackingField: 1
+    <UpgradeLevelPrefabs>k__BackingField: []
+  - <Theme>k__BackingField: 2
+    <UpgradeLevelPrefabs>k__BackingField: []
+  <BaseRange>k__BackingField: 2
+  <BaseSlowingEffectPercentage>k__BackingField: 15
+  upgrades:
+  - <Range>k__BackingField: 4
+    <SoulCost>k__BackingField: 20
+    <SlowingEffectPercentage>k__BackingField: 20
+  - <Range>k__BackingField: 6
+    <SoulCost>k__BackingField: 25
+    <SlowingEffectPercentage>k__BackingField: 25

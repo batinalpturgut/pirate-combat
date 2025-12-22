@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Root/Scenes/MainScene.unity
+    guid: 441468a69af1dcb42828021bf4d0265d
+  - enabled: 1
+    path: Assets/Root/Scenes/PlainTowerDefenseScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Root/Scenes/PlainScene.unity
+    guid: bfbf37d48c01ab34e82a975b555b3b4a
+  m_configObjects: {}

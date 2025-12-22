@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21015901c1c94d0aa3a9512a541f7919, type: 3}
+  m_Name: BigBoss
+  m_EditorClassIdentifier: 
+  <HostileBlueprint>k__BackingField: {fileID: 6294988394638536657, guid: afdc7d7343a8e8d4ebd64135e23befc6,
+    type: 3}
+  <Health>k__BackingField: 100
+  <SoulDrop>k__BackingField: 50
+  <MoveSpeed>k__BackingField: 80
+  <RotateSpeed>k__BackingField: 80
+  <ColliderRange>k__BackingField: 2
+  themeVisualPairList:
+  - <ThemeType>k__BackingField: 0
+    <Visual>k__BackingField: {fileID: 2342736010279712747, guid: bf43693b38410b144a3ea0d2c403c51b,
+      type: 3}
+  <SplineComponent>k__BackingField: {fileID: 6926152480299874311, guid: d663ecc59a8a31948a4fd1dbbb014007,
+    type: 3}

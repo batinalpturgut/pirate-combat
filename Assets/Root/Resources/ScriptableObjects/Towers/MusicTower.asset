@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ffbb8de69449cb9bc2386483226e8d, type: 3}
+  m_Name: MusicTower
+  m_EditorClassIdentifier: 
+  <SoulCost>k__BackingField: 50
+  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: 47ac855bb898ed24db9be4d27a2e7261,
+    type: 3}
+  <Prefab>k__BackingField: {fileID: 1463352755565687545, guid: 7e904adea16d74e40ba34b7067fb8fa2,
+    type: 3}
+  <IsCumulative>k__BackingField: 0
+  themeVisualPairList:
+  - <Theme>k__BackingField: 0
+    <UpgradeLevelPrefabs>k__BackingField:
+    - {fileID: 3562176255390541379, guid: 90b48ac6e3117764295beb82257fa8f9, type: 3}
+    - {fileID: 3562176255390541379, guid: 268e03f478d1b7744ad6a32388fbd7ba, type: 3}
+    - {fileID: 3562176255390541379, guid: 4d4d96c314faf1842aa5da8c6cd678c4, type: 3}
+  <BaseRange>k__BackingField: 5
+  <BaseSoulDrop>k__BackingField: 10
+  <BaseSoulSpawnTime>k__BackingField: 4
+  upgrades:
+  - <SoulDrop>k__BackingField: 15
+    <SoulSpawnTime>k__BackingField: 3
+  - <SoulDrop>k__BackingField: 40
+    <SoulSpawnTime>k__BackingField: 2

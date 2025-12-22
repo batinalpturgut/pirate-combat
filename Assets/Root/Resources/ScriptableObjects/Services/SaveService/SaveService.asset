@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0922420524f946d8bbbcda14cfd858e6, type: 3}
+  m_Name: SaveService
+  m_EditorClassIdentifier: 
+  serializer: {fileID: 11400000, guid: 130960009df234959b8e9bef10656742, type: 2}
+  chiper: {fileID: 11400000, guid: a159d90c5a2f94b248baee98149471c8, type: 2}
+  salt: b599b7b19aee91e6

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295d5795a41741a29bfdb38bcd19b027, type: 3}
+  m_Name: Road_1
+  m_EditorClassIdentifier: 
+  <Path>k__BackingField:
+  - x: 0
+    z: 0
+  - x: 0
+    z: 1
+  - x: 0
+    z: 2
+  - x: 1
+    z: 2
+  - x: 2
+    z: 2
+  - x: 3
+    z: 2
+  - x: 4
+    z: 2
+  - x: 5
+    z: 3
+  - x: 6
+    z: 3
+  - x: 7
+    z: 3
+  - x: 7
+    z: 4
+  - x: 8
+    z: 4
+  - x: 9
+    z: 4
+  <WaveConfigList>k__BackingField:
+  - <HostileConfigList>k__BackingField:
+    - <Condition>k__BackingField: 1
+      <IntParameter>k__BackingField: 7
+      <Hostile>k__BackingField: {fileID: 11400000, guid: 52f87d18c6327d3418958d8a6742a8cc,
+        type: 2}
+    - <Condition>k__BackingField: 1
+      <IntParameter>k__BackingField: 5
+      <Hostile>k__BackingField: {fileID: 11400000, guid: 52f87d18c6327d3418958d8a6742a8cc,
+        type: 2}
+    - <Condition>k__BackingField: 1
+      <IntParameter>k__BackingField: 3
+      <Hostile>k__BackingField: {fileID: 11400000, guid: 52f87d18c6327d3418958d8a6742a8cc,
+        type: 2}
+    - <Condition>k__BackingField: 0
+      <IntParameter>k__BackingField: 0
+      <Hostile>k__BackingField: {fileID: 11400000, guid: 52f87d18c6327d3418958d8a6742a8cc,
+        type: 2}
+    - <Condition>k__BackingField: 0
+      <IntParameter>k__BackingField: 0
+      <Hostile>k__BackingField: {fileID: 11400000, guid: 52f87d18c6327d3418958d8a6742a8cc,
+        type: 2}

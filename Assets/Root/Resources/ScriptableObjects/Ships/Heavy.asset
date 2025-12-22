@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89fd88c46e04c19943c72c592291fce, type: 3}
+  m_Name: Heavy
+  m_EditorClassIdentifier: 
+  <ShipBlueprintPrefab>k__BackingField: {fileID: -1321460193978722673, guid: a23e51052a606e943a80ad8a49cceddf,
+    type: 3}
+  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: 60fe5d454b97b4f42906cbfb9296295f,
+    type: 3}
+  <WaveOffset>k__BackingField: {x: 1, y: 3}
+  <WaveSpeed>k__BackingField: 1
+  <Damage>k__BackingField: 10
+  <Range>k__BackingField: 10
+  <Bps>k__BackingField: 1
+  <SoulCost>k__BackingField: 30
+  <ProjectileVisualList>k__BackingField:
+  - <KeyVisualPairList>k__BackingField:
+    - <Key>k__BackingField: {fileID: 0}
+      <Visual>k__BackingField: {fileID: 4912875709484695671, guid: 3be360dba28cb6044832d99df366d56a,
+        type: 3}
+    - <Key>k__BackingField: {fileID: 11400000, guid: 1e76ea9582160a74c872e51ad63718d5,
+        type: 2}
+      <Visual>k__BackingField: {fileID: 4987730789516057445, guid: 36c4510d74f44c849a9d08080e4e1375,
+        type: 3}
+    <Theme>k__BackingField: 0
+  <ShipVisualList>k__BackingField:
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.LegendaryRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <Material>k__BackingField: {fileID: 0}
+    <Particle>k__BackingField: {fileID: 4747436519865940, guid: 6b6e64e1c81c0eb49afd3957f7a3c8ea,
+      type: 3}
+    <ShipModel>k__BackingField: {fileID: 1880680701260783435, guid: 28b112b00ad64e44ab1676a48caf1187,
+      type: 3}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.EpicRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <Material>k__BackingField: {fileID: 0}
+    <Particle>k__BackingField: {fileID: 4548842466843170, guid: bfd356a90fadbb84b83d320088e559c6,
+      type: 3}
+    <ShipModel>k__BackingField: {fileID: 1880680701260783435, guid: 6dc21ea3284f60a41b07a29143d48d78,
+      type: 3}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.RareRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <Material>k__BackingField: {fileID: 0}
+    <Particle>k__BackingField: {fileID: 4080477524847140, guid: 45d29c93870e1704a8b73bb504435859,
+      type: 3}
+    <ShipModel>k__BackingField: {fileID: 1880680701260783435, guid: 941fd19be4c4c8a4a860f9b49ab59ff5,
+      type: 3}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.UncommonRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <Material>k__BackingField: {fileID: 0}
+    <Particle>k__BackingField: {fileID: 4314476343842726, guid: 181798a00482bb14c94d17af8dce84f9,
+      type: 3}
+    <ShipModel>k__BackingField: {fileID: 1880680701260783435, guid: d481279bc7de32844a16705c7288df8c,
+      type: 3}
+  - <RarityType>k__BackingField:
+      typeName: Root.Scripts.ScriptableObjects.Rarity.Types.CommonRaritySO, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <Material>k__BackingField: {fileID: 0}
+    <Particle>k__BackingField: {fileID: 4309420858742472951, guid: d147347a47a666d4b971de81f5309748,
+      type: 3}
+    <ShipModel>k__BackingField: {fileID: 1880680701260783435, guid: d01794b2e53efe447b71201d503648b4,
+      type: 3}

@@ -1,0 +1,9 @@
+Serialize Properties
+Serialize Fields
+public Properties
+protected Properties
+private Properties
+public Fields 
+protected Fields 
+private Fields 
+
