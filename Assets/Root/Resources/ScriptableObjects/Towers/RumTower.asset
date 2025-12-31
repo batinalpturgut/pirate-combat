@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RumTower
   m_EditorClassIdentifier: 
   <SoulCost>k__BackingField: 10
-  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: d1ebd542088682c45b7f3efcb6b8a231,
+  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: 232d8385d6d0b094eb09fd60fa2af9b0,
     type: 3}
   <Prefab>k__BackingField: {fileID: 1463352755565687545, guid: 7e904adea16d74e40ba34b7067fb8fa2,
     type: 3}
@@ -21,13 +21,15 @@ MonoBehaviour:
   themeVisualPairList:
   - <Theme>k__BackingField: 0
     <UpgradeLevelPrefabs>k__BackingField:
-    - {fileID: 974830812444809385, guid: d8f2037b757aa484bb0cb4331ee14300, type: 3}
-    - {fileID: 974830812444809385, guid: 98ecf07e3efeef548a3a36f7d08b066f, type: 3}
-    - {fileID: 974830812444809385, guid: 5c4a53b8912405c41899a5ac173f56ab, type: 3}
+    - {fileID: 5558438946160967534, guid: e59894ac12e42c04498543c39451b6fe, type: 3}
+    - {fileID: 5558438946160967534, guid: ef3a556621ac5f04181d6f9856b22e20, type: 3}
+    - {fileID: 5558438946160967534, guid: 2ab42bd278c31ad479369a94e21b9196, type: 3}
   <BaseRange>k__BackingField: 5
   <BaseRangeBoostPercentage>k__BackingField: 10
   upgrades:
   - <Range>k__BackingField: 6
+    <SoulCost>k__BackingField: 0
     <RangeBoostPercentage>k__BackingField: 15
   - <Range>k__BackingField: 7
+    <SoulCost>k__BackingField: 0
     <RangeBoostPercentage>k__BackingField: 20

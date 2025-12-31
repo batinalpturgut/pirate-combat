@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MusicTower
   m_EditorClassIdentifier: 
   <SoulCost>k__BackingField: 50
-  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: 47ac855bb898ed24db9be4d27a2e7261,
+  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: bd7d2dce2e9d6a44986702c7c7595b95,
     type: 3}
   <Prefab>k__BackingField: {fileID: 1463352755565687545, guid: 7e904adea16d74e40ba34b7067fb8fa2,
     type: 3}
@@ -21,14 +21,16 @@ MonoBehaviour:
   themeVisualPairList:
   - <Theme>k__BackingField: 0
     <UpgradeLevelPrefabs>k__BackingField:
-    - {fileID: 3562176255390541379, guid: 90b48ac6e3117764295beb82257fa8f9, type: 3}
-    - {fileID: 3562176255390541379, guid: 268e03f478d1b7744ad6a32388fbd7ba, type: 3}
-    - {fileID: 3562176255390541379, guid: 4d4d96c314faf1842aa5da8c6cd678c4, type: 3}
+    - {fileID: 6259947227063593803, guid: 0786bcbec8b504442a1b71ac4ddacfdb, type: 3}
+    - {fileID: 6259947227063593803, guid: 7da61f31e65008e4db7c9d1bca739d31, type: 3}
+    - {fileID: 6259947227063593803, guid: 856deee6b0eb60d4db20d6dd73cac004, type: 3}
   <BaseRange>k__BackingField: 5
   <BaseSoulDrop>k__BackingField: 10
   <BaseSoulSpawnTime>k__BackingField: 4
   upgrades:
   - <SoulDrop>k__BackingField: 15
     <SoulSpawnTime>k__BackingField: 3
+    <SoulCost>k__BackingField: 0
   - <SoulDrop>k__BackingField: 40
     <SoulSpawnTime>k__BackingField: 2
+    <SoulCost>k__BackingField: 0

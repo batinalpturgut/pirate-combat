@@ -12,33 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295d5795a41741a29bfdb38bcd19b027, type: 3}
   m_Name: Road_1
   m_EditorClassIdentifier: 
+  <MovementType>k__BackingField: 0
+  <SplineComponent>k__BackingField: {fileID: 0}
   <Path>k__BackingField:
   - x: 0
     z: 0
+    y: 0
   - x: 0
     z: 1
+    y: 0
   - x: 0
     z: 2
+    y: 0
   - x: 1
     z: 2
+    y: 0
   - x: 2
     z: 2
+    y: 0
   - x: 3
     z: 2
+    y: 0
   - x: 4
     z: 2
+    y: 0
   - x: 5
     z: 3
+    y: 0
   - x: 6
     z: 3
+    y: 0
   - x: 7
     z: 3
+    y: 0
   - x: 7
     z: 4
+    y: 0
   - x: 8
     z: 4
+    y: 0
   - x: 9
     z: 4
+    y: 0
   <WaveConfigList>k__BackingField:
   - <HostileConfigList>k__BackingField:
     - <Condition>k__BackingField: 1
